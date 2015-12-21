@@ -32,13 +32,13 @@ android {
         unitTest // Creates a new scope which wraps only unit tests
     }
 
-    sourceSets {
+    /*sourceSets {
         unitTest {
             java {
                 srcDir 'src/test/java' // New scope includes our unit test folder
             }
         }
-    }
+    }*/
 
     lintOptions {
         // I prefer avoiding a build fail if there is any warning, for they are only warnings
