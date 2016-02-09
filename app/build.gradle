@@ -100,7 +100,7 @@ dependencies {
 }
 
 // Robolectric config
-robolectric {
+/*robolectric {
     // Configure includes / excludes
     include '**/*Test.class'
     exclude '**/espresso/**/*.class'
@@ -125,7 +125,7 @@ robolectric {
     afterTest { descriptor, result ->
         println "Executing test for ${descriptor.name} with result: ${result.resultType}"
     }
-}
+}*/
 //end Robolectric config
 
 // Jacoco config
